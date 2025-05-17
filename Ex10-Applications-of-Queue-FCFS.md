@@ -10,11 +10,11 @@ To write a C function to calculate the turnaround time of each process given the
 
 ## Program:
 ```
-/*
+
 Program to find and display the priority of the operator in the given Postfix expression
 Developed by:  Varshini D
 RegisterNumber: 212223230234
-*/
+
 nt turnaroundtime( int proc[], int n,int burst_time[], int wait_time[], int tat[]) {
  // calculating turnaround time by adding
  // burst_time[i] + wait_time[i]
